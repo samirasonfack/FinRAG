@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Rapports financiers déposés à la main (PDF, DOCX, etc.) — non versionnés par défaut
+data/reports/*
+!data/reports/.gitkeep
+
+# Index vectoriel local (quand tu brancheras le RAG)
+chroma_db/
